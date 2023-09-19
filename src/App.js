@@ -3,10 +3,10 @@ import React from "react";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import BlogList from "./components/BlogList";
-import Login from "./components/Login";
+import Login from "./Authentification/Login";
 import Footer from "./components/Footer";
 import About from "./components/About";
-import Register from "./components/Register";
+import Register from "./Authentification/Register";
 import CreateBlogPost from "./components/CreateBlogPost";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
