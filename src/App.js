@@ -1,13 +1,13 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import React from "react";
 import "./App.css";
-import Navbar from "./components/Navbar";
+import Navbar from "./Sections/Navbar";
 import BlogList from "./components/BlogList";
 import Login from "./Authentification/Login";
-import Footer from "./components/Footer";
-import About from "./components/About";
+import Footer from "./Sections/Footer";
+import About from "./pages/About";
 import Register from "./Authentification/Register";
-import CreateBlogPost from "./components/CreateBlogPost";
+import CreateBlogPost from "./pages/CreateBlogPost";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
