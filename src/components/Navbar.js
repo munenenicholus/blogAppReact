@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container">
-        <Link className="navbar-brand" to="/">Emore Blog App</Link>
+        <Link className="navbar-brand" to="/about">Emore Blog App</Link>
         <button
           className="navbar-toggler"
           type="button"
